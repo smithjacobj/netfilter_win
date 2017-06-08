@@ -1,0 +1,14 @@
+# ignore everything
+*
+
+# except
+!.gitignore
+!*.h
+!*.c
+!*.inf
+!*.sln
+!*.filters
+!*.vcxproj
+
+# even if they are in subdirectories
+!*/
