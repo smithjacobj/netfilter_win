@@ -1,7 +1,8 @@
 #pragma once
 
-#define NDIS_MAJOR_VERSION 6
-#define NDIS_MINOR_VERSION 0
+#define NDIS_WDM
+#define NDIS60
 
+#include <wdm.h>
 #include <ndis.h>
 #include <stdint.h>
